@@ -1,0 +1,12 @@
+{
+	"name":	"MashcoPiro",
+	"version": "1",
+	"manifest_version": 2,
+	"description": "Hides the YouTube Guide",
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*", "*://*.youtu.be/*"],
+			"js": ["jquery-1.7.2.min.js", "MashcoPiro.js"]
+		}
+	]
+}
